@@ -1,0 +1,13 @@
+<div class="app-container">
+  <div
+    class="card"
+    style="width: 30rem;"
+    *ngFor="let post of posts"
+  >
+    <div class="card-body text-center" >
+      <p>Post number: {{ post.id }}</p>
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.body }}</p>
+    </div>
+  </div>
+</div>
